@@ -1,0 +1,166 @@
+/* Reset general */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* === Hero Section === */
+.hero {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* border: 1px solid green; */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+    /* border: 1px solid red; */
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+    /* border: 1px solid pink; */
+}
+
+.hero-text {
+    max-width: 50%;
+
+    /* border: 1px solid black; */
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px 0 20px;
+}
+
+.hero-text button {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-image img {
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* === Info Section === */
+.info-section {
+    padding: 60px 100px;
+    text-align: center;
+
+    /* border: 1px solid red; */
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 40px;
+
+    /* border: 1px solid red; */
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+    /* border: 1px solid green; */
+}
+
+.card {
+    max-width: 150px;
+    
+    /* border: 1px solid red; */
+}
+
+.img-placeholder {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+/* == Quote Section == */
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 100px;
+    align-items: center;
+    background-color: #E5E7EB;
+
+
+    /* border: 1px solid blue; */
+}
+
+.quote-section p {
+    font-size: 36px;
+    font-weight: lighter;
+    max-width: 800px;
+    text-align: justify;
+    font-style: italic;
+    color: #1F2937;
+
+    /* border: 1px solid black; */
+}
+
+.quote-sign{
+    width: 800px;
+
+    /* border: 1px solid green; */
+    
+}
+
+.quote-sign p {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    color: #1F2937;
+    text-align: end;
+
+    /* border: 1px solid red; */
+}
