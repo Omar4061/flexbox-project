@@ -137,7 +137,7 @@ body {
     /* border: 1px solid blue; */
 }
 
-.quote-section p {
+.quote-text p{
     font-size: 36px;
     font-weight: lighter;
     max-width: 800px;
@@ -156,11 +156,56 @@ body {
 }
 
 .quote-sign p {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-    font-style: italic;
     color: #1F2937;
     text-align: end;
 
     /* border: 1px solid red; */
 }
+
+/* == Sign up section == */
+
+.sign-up-section {
+    display: flex;
+    padding: 60px 100px;
+    justify-content: center;
+
+    /* border: 1px solid red; */
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+
+    height: 150px;
+    width: 800px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    align-items: center;
+    padding: 15px 125px;
+}
+
+.sign-up-left .title{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sign-up-left .text{
+    color: white;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.button-sign-up{
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
