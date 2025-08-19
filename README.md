@@ -12,7 +12,7 @@ It was created to practice fundamental HTML and CSS skills, including layout wit
 
 ## Live Preview
 
-_(Soon)_
+You can view the live version [here](https://omar4061.github.io/flexbox-project/)
 
 ## Image Credit
 
