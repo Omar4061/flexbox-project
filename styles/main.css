@@ -79,6 +79,11 @@ body {
     cursor: pointer;
 }
 
+.hero-text button:active {
+    background-color: white;
+    color: #3882f6;
+}
+
 .hero-image img {
     width: 500px;
     height: auto;
@@ -207,6 +212,12 @@ body {
     border-radius: 5px;
     width: 100px;
     height: 30px;
+    cursor: pointer;
+}
+
+.button-sign-up:active{
+    background-color: white;
+    color: #3882F6;
 }
 
 /* == Footer Section == */
