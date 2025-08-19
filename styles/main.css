@@ -209,3 +209,13 @@ body {
     height: 30px;
 }
 
+/* == Footer Section == */
+
+.footer-section{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 25px;
+
+}
+
