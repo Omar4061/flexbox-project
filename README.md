@@ -1,7 +1,7 @@
 # Landing Page Project
 
 This is a simple landing page built as part of [The Odin Project](https://www.theodinproject.com/) curriculum.  
-It was created to practice fundamental HTML and CSS skills, including layout with Flexbox, typography, and responsive design structure.
+It was created to practice fundamental HTML and CSS skills, including layout with Flexbox, typography, and design structure.
 
 ## Features
 
